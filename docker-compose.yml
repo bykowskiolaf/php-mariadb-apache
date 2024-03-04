@@ -40,7 +40,7 @@ services:
   phpmyadmin:
     hostname: ma0-tdi-phpmyadmin
     container_name: ma0-tdi-phpmyadmin
-    image: phpmyadmin/phpmyadmin
+    image: arm64v8/phpmyadmin
     environment:
       MYSQL_ROOT_PASSWORD: toor
       MYSQL_USER: tdi
